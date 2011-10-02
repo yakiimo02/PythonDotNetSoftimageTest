@@ -55,8 +55,6 @@ def processGUICommands():
     commandQueueLock.release()
 
     if command is not None:
-        Application.DeleteObject("sphere")
-        print "commandname: " + str(command)
         command[0].__call__(*command[1])
 
 

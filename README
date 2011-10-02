@@ -8,15 +8,15 @@ Made possible by the information in the tutorial http://tech-artists.org/wiki/Py
 Additional helpful reference http://shaderop.com/2011/04/using-wxpython-with-autodesk-softimage/
 
 Code:
-The PythonDotNetTest folder contains the C# .NET WinForm control. DotNetTestSoftimage.py and DotNetTestSoftimageModeless.py 
-are the Softimage self-installing plugin scripts.
+The PythonDotNetTest folder contains the C# .NET WinForm control.
+DotNetTestSoftimage.py and DotNetTestSoftimageModeless.py are the Softimage self-installing plugin scripts.
 
 Install:
 1) Installing Python.NET binaries.
 Download the Python.NET from its sourceforge repository. http://pythonnet.sourceforge.net/
-A binary file zip can be downloaded, but for my tests I compiled "Any CPU" and "x64" binaries from source. 
+A binary file zip can be downloaded, but for my tests I compiled "Any CPU" and "x64" binaries from source.
 Copy Python.Runtime.dll and clr.pyd into the Softimage bin folder (e.g. C:\Program Files\Autodesk\Maya2012\bin).
-2) Compile the PythonDotNetTest C# .NET WinForm Control and modify DotNetTestMaya.py to point to the compiled 
+2) Compile the PythonDotNetTest C# .NET WinForm Control and modify DotNetTestMaya.py to point to the compiled
 PythonDotNetTest.dll folder path.
 3) Copy DotNetTestSoftimage.py and DotNetTestSoftimageModeless.py to the Softimage Plugins folder.
 
